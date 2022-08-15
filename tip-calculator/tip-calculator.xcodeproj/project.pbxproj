@@ -16,7 +16,7 @@
 		BE682DD528A8BAAA00072532 /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DD428A8BAAA00072532 /* tip_calculatorUITests.swift */; };
 		BE682DD728A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DD628A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift */; };
 		BE682DE528AA1C6700072532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682DE328AA1C6700072532 /* Main.storyboard */; };
-		BE682DE928AA1E1200072532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DE828AA1E1200072532 /* ViewController.swift */; };
+		BE682DE928AA1E1200072532 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DE828AA1E1200072532 /* TipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		BE682DD428A8BAAA00072532 /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		BE682DD628A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE682DE428AA1C6700072532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE682DE828AA1E1200072532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE682DE828AA1E1200072532 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		BE682DB228A8BAA900072532 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				BE682DE828AA1E1200072532 /* ViewController.swift */,
+				BE682DE828AA1E1200072532 /* TipViewController.swift */,
 				BE682DE328AA1C6700072532 /* Main.storyboard */,
 				BE682DB328A8BAA900072532 /* AppDelegate.swift */,
 				BE682DB528A8BAA900072532 /* SceneDelegate.swift */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE682DE928AA1E1200072532 /* ViewController.swift in Sources */,
+				BE682DE928AA1E1200072532 /* TipViewController.swift in Sources */,
 				BE682DB428A8BAA900072532 /* AppDelegate.swift in Sources */,
 				BE682DB628A8BAA900072532 /* SceneDelegate.swift in Sources */,
 				BE3B6C7B28AA354E002F743B /* SettingsViewController.swift in Sources */,

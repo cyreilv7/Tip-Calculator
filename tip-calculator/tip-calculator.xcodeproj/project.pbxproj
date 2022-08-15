@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3B6C7B28AA354E002F743B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B6C7A28AA354E002F743B /* SettingsViewController.swift */; };
 		BE682DB428A8BAA900072532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DB328A8BAA900072532 /* AppDelegate.swift */; };
 		BE682DB628A8BAA900072532 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DB528A8BAA900072532 /* SceneDelegate.swift */; };
-		BE682DB828A8BAA900072532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DB728A8BAA900072532 /* ViewController.swift */; };
-		BE682DBB28A8BAA900072532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682DB928A8BAA900072532 /* Main.storyboard */; };
 		BE682DBD28A8BAA900072532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE682DBC28A8BAA900072532 /* Assets.xcassets */; };
 		BE682DC028A8BAA900072532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682DBE28A8BAA900072532 /* LaunchScreen.storyboard */; };
 		BE682DCB28A8BAAA00072532 /* tip_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DCA28A8BAAA00072532 /* tip_calculatorTests.swift */; };
 		BE682DD528A8BAAA00072532 /* tip_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DD428A8BAAA00072532 /* tip_calculatorUITests.swift */; };
 		BE682DD728A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DD628A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift */; };
+		BE682DE528AA1C6700072532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE682DE328AA1C6700072532 /* Main.storyboard */; };
+		BE682DE928AA1E1200072532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE682DE828AA1E1200072532 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE3B6C7A28AA354E002F743B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BE682DB028A8BAA900072532 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE682DB328A8BAA900072532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE682DB528A8BAA900072532 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE682DB728A8BAA900072532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE682DBA28A8BAA900072532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE682DBC28A8BAA900072532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE682DBF28A8BAA900072532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE682DC128A8BAA900072532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		BE682DD028A8BAAA00072532 /* tip-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE682DD428A8BAAA00072532 /* tip_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITests.swift; sourceTree = "<group>"; };
 		BE682DD628A8BAAA00072532 /* tip_calculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE682DE428AA1C6700072532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE682DE828AA1E1200072532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,14 @@
 		BE682DB228A8BAA900072532 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				BE682DE828AA1E1200072532 /* ViewController.swift */,
+				BE682DE328AA1C6700072532 /* Main.storyboard */,
 				BE682DB328A8BAA900072532 /* AppDelegate.swift */,
 				BE682DB528A8BAA900072532 /* SceneDelegate.swift */,
-				BE682DB728A8BAA900072532 /* ViewController.swift */,
-				BE682DB928A8BAA900072532 /* Main.storyboard */,
 				BE682DBC28A8BAA900072532 /* Assets.xcassets */,
 				BE682DBE28A8BAA900072532 /* LaunchScreen.storyboard */,
 				BE682DC128A8BAA900072532 /* Info.plist */,
+				BE3B6C7A28AA354E002F743B /* SettingsViewController.swift */,
 			);
 			path = "tip-calculator";
 			sourceTree = "<group>";
@@ -231,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE682DE528AA1C6700072532 /* Main.storyboard in Resources */,
 				BE682DC028A8BAA900072532 /* LaunchScreen.storyboard in Resources */,
 				BE682DBD28A8BAA900072532 /* Assets.xcassets in Resources */,
-				BE682DBB28A8BAA900072532 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE682DB828A8BAA900072532 /* ViewController.swift in Sources */,
+				BE682DE928AA1E1200072532 /* ViewController.swift in Sources */,
 				BE682DB428A8BAA900072532 /* AppDelegate.swift in Sources */,
 				BE682DB628A8BAA900072532 /* SceneDelegate.swift in Sources */,
+				BE3B6C7B28AA354E002F743B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE682DB928A8BAA900072532 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE682DBA28A8BAA900072532 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE682DBE28A8BAA900072532 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BE682DBF28A8BAA900072532 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE682DE328AA1C6700072532 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE682DE428AA1C6700072532 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VLHDGQN8GU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.tip-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tip-calc-wiho";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VLHDGQN8GU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "tip-calculator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.tip-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.tip-calc-wiho";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

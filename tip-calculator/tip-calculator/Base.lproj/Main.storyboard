@@ -29,8 +29,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4I-RM-ilD">
-                                <rect key="frame" x="319" y="157" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P4I-RM-ilD">
+                                <rect key="frame" x="319" y="157" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -76,7 +76,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="BillAmount" destination="Foc-c6-GRz" id="uGo-76-SkE"/>
                         <outlet property="billAmountTextField" destination="4qi-sp-Fx8" id="J4R-my-VUI"/>
                         <outlet property="tipAmountLabel" destination="P4I-RM-ilD" id="unM-8g-IdH"/>
                         <outlet property="tipControl" destination="mxH-G7-WQH" id="g4n-eA-g2p"/>

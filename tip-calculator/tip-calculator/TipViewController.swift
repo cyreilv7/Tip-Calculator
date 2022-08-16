@@ -21,12 +21,15 @@ class TipViewController: UIViewController {
         
         let defaults = UserDefaults.standard
         
-        let tip1 = Double(defaults.string(forKey: "tip1") ?? "15")
-        let tip2 = Double(defaults.string(forKey: "tip2") ?? "18")
-        let tip3 = Double(defaults.string(forKey: "tip3") ?? "20")
+        let tip1 = defaults.string(forKey: "tip1") ?? "15"
+        let tip2 = defaults.string(forKey: "tip2") ?? "18"
+        let tip3 = defaults.string(forKey: "tip3") ?? "20"
 
-        print(tip1, tip2, tip3)
-        tipPercentages = [tip1!, tip2!, tip3!]
+        tipPercentages = [Double(tip1) ?? 15 , Double(tip2) ?? 18 , Double(tip3) ?? 20]
+        
+        tipControl.setTitle("\(tip1)%", forSegmentAt: 0)
+        tipControl.setTitle("\(tip2)%", forSegmentAt: 1)
+        tipControl.setTitle("\(tip3)%", forSegmentAt: 2)
     }
     
     override func viewDidLoad() {

@@ -62,7 +62,6 @@ class TipViewController: UIViewController {
         totalLabel.text = String(format:"$%.2f", total)
     }
     
-    
     @IBAction func showNumPeople(_ sender: Any) {
         let numPeople = numPeopleControl.value
         numPeopleLabel.text = String(Int(numPeopleControl.value)) ?? "0"

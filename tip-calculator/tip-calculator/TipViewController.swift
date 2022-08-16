@@ -45,6 +45,8 @@ class TipViewController: UIViewController {
         super.viewDidLoad()
         
         self.title = "Tip Calculator"
+        
+        billAmountTextField.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
     

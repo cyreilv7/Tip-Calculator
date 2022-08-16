@@ -10,13 +10,22 @@ import UIKit
 class TipViewController: UIViewController {
 
     @IBOutlet weak var billAmountTextField: UITextField!
+    
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
+    
     @IBOutlet weak var totalLabel: UILabel!
+    
+    // party size
+    @IBOutlet weak var numPeopleControl: UIStepper!
+    @IBOutlet weak var personPluralityLabel: UILabel!
+    @IBOutlet weak var numPeopleLabel: UILabel!
     
     var tipPercentages: [Double] = []
     
     override func viewWillAppear(_ animated: Bool) {
+        numPeopleControl.minimumValue = 1
+        
         super.viewWillAppear(animated)
         
         let defaults = UserDefaults.standard
@@ -34,18 +43,31 @@ class TipViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
     @IBAction func calculateTip(_ sender: Any) {
         let bill = Double(billAmountTextField.text!) ?? 0
+        let numPeople = numPeopleControl.value
+        
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex] / 100
-        let total = tip + bill
+        let total = (tip + bill) / numPeople
+        
         
         tipAmountLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format:"$%.2f", total)
     }
     
-
+    
+    @IBAction func showNumPeople(_ sender: Any) {
+        let numPeople = numPeopleControl.value
+        numPeopleLabel.text = String(Int(numPeopleControl.value)) ?? "0"
+        if numPeople == 1 {
+            personPluralityLabel.text = "person"
+        } else {
+            personPluralityLabel.text = "people"
+        }
+    }
+    
 }

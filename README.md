@@ -24,6 +24,7 @@ The following **additional** features are implemented:
 
 - [X] Tip is automatically updated as the user types in/ changes the bill.
 - [X] Settings page which allows persistence of changes
+- [X] Number pad shows up by default instead of default keyboard
 
 ## Video Walkthrough
 

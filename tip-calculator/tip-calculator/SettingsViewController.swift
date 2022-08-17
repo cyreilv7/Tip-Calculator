@@ -34,6 +34,10 @@ class SettingsViewController: UIViewController, UITextFieldDelegate, UIPickerVie
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        newTip1.text = defaults.string(forKey: "tip1")
+        newTip2.text = defaults.string(forKey: "tip2")
+        newTip3.text = defaults.string(forKey: "tip3")
+        
         let selectedCurrency = defaults.string(forKey: "selectedCurrency") ?? Locale.current.currencyCode
         
         currencies = Locale.isoCurrencyCodes
@@ -93,4 +97,3 @@ class SettingsViewController: UIViewController, UITextFieldDelegate, UIPickerVie
     }
     
 }
-

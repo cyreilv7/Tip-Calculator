@@ -21,7 +21,6 @@ class TipViewController: UIViewController {
     
     var tipPercentages: [Double] = []
     
-    
     override func viewWillAppear(_ animated: Bool) {
         numPeopleControl.minimumValue = 1
         
@@ -30,7 +29,7 @@ class TipViewController: UIViewController {
         let tip1 = defaults.string(forKey: "tip1") ?? "15"
         let tip2 = defaults.string(forKey: "tip2") ?? "18"
         let tip3 = defaults.string(forKey: "tip3") ?? "20"
-
+                
         tipPercentages = [Double(tip1) ?? 15 , Double(tip2) ?? 18 , Double(tip3) ?? 20]
         
         tipControl.setTitle("\(tip1)%", forSegmentAt: 0)
@@ -68,7 +67,8 @@ class TipViewController: UIViewController {
         self.title = "Tip Calculator"
         
         billAmountTextField.becomeFirstResponder()
-
+        
+        billAmountTextField.keyboardType = .numberPad
     }
     
     @IBAction func calculateTip(_ sender: Any) {

@@ -55,6 +55,8 @@ class SettingsViewController: UIViewController, UITextFieldDelegate, UIPickerVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Settings"
+        newTip1.keyboardType = .numberPad
     }
     
     // number of picker columns
